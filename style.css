@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  position: relative;
+}
+
+.backgroundColor {
+  background-color: #ff33ae;
+  height: 200px;
+  width: 100%;
+}
+
+section {
+  position: absolute;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  
+}
+
+header {
+  background-color: white;
+  padding: 15px;
+  width: 500px;
+  box-shadow: 3px 3px 15px #888888;
+  border-radius: 5px;
+}
+
+header h3{
+  margin-bottom: 10px;
+}
+
+.todoForm{
+  display: flex;
+}
+
+form .newTodo {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  box-shadow: 3px 3px 15px #888888;
+}
+
+form .btnSubmit {
+  background-color: #ff33ae;
+  margin-left: 15px;
+  color: white;
+  width: 70px;
+  height: 40px;
+  border: 0;
+  border-radius: 2px;
+}
+
+.todList{
+  margin-top: 50px;
+  box-shadow: 3px 3px 15px #888888;
+  list-style: none;
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #888888;
+}
+
+.todList ul { 
+  list-style: none;
+}
+
+.todList ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todList ul button{
+  background-color: white;
+  margin-left: 15px;
+  color: #ff33ae;
+  width: 70px;
+  height: 40px;
+  border: 1px solid #ff33ae;
+  border-radius: 2px;
+  
+}
+
+.todList ul i{
+  color: #ff33ae;
+}
+
